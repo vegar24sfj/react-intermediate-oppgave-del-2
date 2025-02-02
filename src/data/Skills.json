@@ -1,0 +1,27 @@
+[
+  {
+    "icon": "/assets/icons8-javascript-48.png",
+    "skillName": "JavaScript",
+    "tooltip": "Fullstack JavaScript Development"
+  },
+  {
+    "icon": "/assets/icons8-react-30.png",
+    "skillName": "React",
+    "tooltip": "Building Interactive UIs with React"
+  },
+  {
+    "icon": "/assets/icons8-node-js-32.png",
+    "skillName": "Node.js",
+    "tooltip": "Backend Development with Node.js"
+  },
+  {
+    "icon": "/assets/icons8-css-48.png",
+    "skillName": "CSS3",
+    "tooltip": "Styling with CSS3 and Flexbox"
+  },
+  {
+    "icon": "/assets/icons8-html-5-48.png",
+    "skillName": "HTML5",
+    "tooltip": "Structuring Web Pages with HTML5"
+  }
+]
