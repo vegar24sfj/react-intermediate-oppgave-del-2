@@ -1,6 +1,6 @@
-import React from 'react';
-import NavBar from './NavBar';
-import HamburgerBar from './HamburgerBar';
+import React from "react";
+import NavBar from "./NavBar";
+import HamburgerBar from "./HamburgerBar";
 
 const Header = () => {
   return (
