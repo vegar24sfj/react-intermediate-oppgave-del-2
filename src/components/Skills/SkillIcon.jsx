@@ -1,6 +1,5 @@
 import React from "react";
 
-// SkillIcon component
 const SkillIcon = ({ icon, skillName, tooltip }) => {
   return (
     <div className="text-center" title={tooltip}>

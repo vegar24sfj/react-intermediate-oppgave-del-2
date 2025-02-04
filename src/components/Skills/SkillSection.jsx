@@ -1,6 +1,6 @@
 import React from "react";
-import SkillIcon from "./SkillIcon"; // Make sure the file exists here
-import skillsData from "../data/Skills.json";
+import SkillIcon from "./SkillIcon";
+import skillsData from "../../data/Skills.json";
 
 const SkillSection = () => {
   return (
