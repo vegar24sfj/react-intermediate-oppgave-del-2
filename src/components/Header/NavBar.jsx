@@ -1,15 +1,15 @@
 import React from "react";
-import NavItem from "./NavItem";
+import { MENU_LIST } from "../../data/menu_data"; // Import the MENU_LIST from menu_data.js
+import NavItem from "./NavItem"; // Import the NavItem component
 
 const NavBar = () => {
   return (
     <nav className="hidden md:flex">
       <ul className="flex space-x-6">
-        <NavItem to="/" text="Home" />
-        <NavItem to="/about" text="About" />
-        <NavItem to="/projects" text="Projects" />
-        <NavItem to="/contact" text="Contact" />
-        <NavItem to="/skills" text="Skills" />
+        {/* Dynamically render NavItems using MENU_LIST */}
+        {MENU_LIST.map((item, index) => (
+          <NavItem key={index} to={item.href} text={item.text} />
+        ))}
       </ul>
     </nav>
   );
